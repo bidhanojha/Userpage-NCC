@@ -1,5 +1,7 @@
 const body = document.querySelector('body');
 const destination = document.querySelector('#destination');
+const security = document.querySelector('#security');
+
 
 destination.addEventListener('click', () => {
     if (screen.width > 700) {
@@ -8,4 +10,8 @@ destination.addEventListener('click', () => {
     else {
         window.location.href = 'destination.html';
     }
+})
+
+security.addEventListener('click', () => {
+    window.location.href = 'security.html';
 })
