@@ -16,6 +16,10 @@ body {
     max-width: 600px;
     margin: auto;
     margin-top: 50px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .contact-container h1 {
@@ -38,7 +42,7 @@ body {
     background-color: #4f6672;
     padding: 8px 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 6px;
     width: 310px;
@@ -54,14 +58,15 @@ body {
     margin-top: 20px;
 }
 
-/* Responsive styles */
+/* Responsive styles for smaller screens */
 @media screen and (max-width: 768px) {
     .contact-container {
-        padding: 10px;
-        max-width: 90%;
+        padding: 14px;
+        max-width: 86%;
     }
 
     .whatsapp{
-        width: 70vw;
+        width: 66vw;
+        justify-content: space-between;
     }
 }
