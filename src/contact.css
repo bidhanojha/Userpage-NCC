@@ -7,6 +7,18 @@ body {
     background-color: #0d1117;
 }
 
+#back-arrow{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: x-large;
+    color: white;
+}
+
+#back-arrow:hover{
+    color: #b353e7;
+}
+
 .contact-container {
     background: linear-gradient(to right, #001f3f, #1a1a1a);
     color: #fff;
@@ -63,6 +75,7 @@ body {
     .contact-container {
         padding: 14px;
         max-width: 86%;
+        margin-top: 60px;
     }
 
     .whatsapp{
