@@ -1,0 +1,39 @@
+/* about.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+}
+
+.about-container {
+    background: linear-gradient(to right, #001f3f, #1a1a1a);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .about-container {
+        padding: 10px;
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}
