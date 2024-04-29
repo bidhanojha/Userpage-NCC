@@ -1,3 +1,7 @@
 .romantic-font {
     font-family: 'Great Vibes', cursive;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
